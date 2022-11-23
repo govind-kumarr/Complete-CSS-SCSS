@@ -1,0 +1,47 @@
+/* Flex Container => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+
+  /* display: inline-flex; */ /* it acts as though it is inline, but for a flex container */
+  
+  /* Flex Container Properties */
+  display: flex;
+}
+
+/* Flex Items => Children */
+li {
+  /* display: inline-block; */
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+}
+
+/* Flex Container => Parent */
+body {
+  display: flex;
+  flex-wrap: wrap; /* just a demo on responsiveness */
+}
+
+
+/* Flex Items => Children */  /*style before applying (display:flex;) property */
+section {
+  width: 20rem;
+  background-color: lightslategray;
+  padding: 1.5rem;
+  margin: 1rem;
+  color: white;
+}
+
+/* section h2,
+section p {
+  background-color: #20b2aa;
+} */
+
+div.content {
+  background-color: #20b2aa;
+  padding: 1rem;
+}

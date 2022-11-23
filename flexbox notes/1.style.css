@@ -1,0 +1,21 @@
+/* Flex Container => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+
+  /* display: inline-flex; */ /* it acts as though it is inline, but for a flex container */
+  
+  /* Flex Container Properties */
+  display: flex;
+}
+
+/* Flex Items => Children */
+li {
+  /* display: inline-block; */
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+}

@@ -1,0 +1,182 @@
+/* Flex Continer => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+  height: 600px; /* added for flex flow of columns */ /* Comment in for (align-items: stretch;) to be visualized */
+
+  /* display: inline-flex; */ /* it acts as though it is inline, but for a flex container */
+
+  /* Flex Container Properties */
+  display: flex;
+
+  /*-*-*-*-*-*-*-*-*-*-----(1)FLEX DIRECTION-----*-*-*-*-*-*-*-*-*-*/
+
+  /* 1.1 */
+  /* Row (Default) */
+  /* flex-direction: row; */
+
+  /* 1.2 */
+  /* Row Reverse (Default Reverse) */
+  /* flex-direction: row-reverse; */
+
+  /* 1.3 */
+  /* Column */
+  /* flex-direction: column; */
+
+  /* 1.4 */
+  /* Column Reverse */
+  /* flex-direction: column-reverse; */
+
+  /*-*-*-*-*-*-*-*-*-*-----(2)FLEX WRAP-----*-*-*-*-*-*-*-*-*-*/
+
+  /* 2.1 */
+  /* Nowrap (Default) */
+  /* flex-wrap: nowrap; */
+
+  /* 2.2 */
+  /* Wrap */
+  /* flex-wrap: wrap; */
+
+  /* 2.3 */
+  /* Wrap Reverse */
+  /* flex-wrap: wrap-reverse; */
+
+  /*-*-*-*-*-*-*-*-*-*-----(3)FLEX FLOW-----*-*-*-*-*-*-*-*-*-*/
+
+  /* 3.1 */
+  /* Row (Direction) Wrap (Wrap) */
+  /* flex-flow: row wrap; */
+
+  /* 3.2 */
+  /* Column Wrap */
+  /* flex-flow: column wrap; */
+
+  /* 3.3 */
+  /* Row-reverse wrap */
+  /* flex-flow: row-reverse wrap; */
+
+  /* 3.4 */
+  /* Column-reverse wrap */
+  /* flex-flow: column-reverse wrap; */
+
+  /* 3.5 */
+  /* Row noWrap */
+  /* flex-flow: row nowrap; */
+
+  /* 3.6 */
+  /* Row-Reverse noWrap */
+  /* flex-flow: row-reverse nowrap; */
+
+  /* 3.7 */
+  /* Column noWrap */
+  /* flex-flow: column noWrap; */
+
+  /* 3.8 */
+  /* Column-Reverse noWrap */
+  /* flex-flow: column-reverse nowrap; */
+
+  /*-*-*-*-*-*-*-*-*-*-----(4)JUSTIFY CONTENT-----*-*-*-*-*-*-*-*-*-*/
+
+  /* Default Direction => Row => Main Axis => Horizontal */
+  /* Direction => Column => Main Axis => Vertical */
+
+  /* 4.1 */
+  /* Flex Start (Default) */
+  /* justify-content: flex-start; */
+
+  /* 4.2 */
+  /* Flex End */
+  /* justify-content: flex-end; */
+
+  /* 4.3 */
+  /* Center */
+  /* justify-content: center; */
+
+  /* 4.4 */
+  /* Space Between */
+  /* justify-content: space-between; */
+
+  /* 4.5 */
+  /* Space Around */
+  /* justify-content: space-around; */
+
+  /* 4.6 */
+  /* Space Evenly */
+  /* justify-content: space-evenly; */
+
+  /*-*-*-*-*-*-*-*-*-*-----(5)ALIGN ITEMS-----*-*-*-*-*-*-*-*-*-*/
+
+  /* Default Direction => Row => Cross Axis => Vertical */
+  /* Direction => Column => Cross Axis => Horizontal */
+
+  /* 5.1 */
+  /* Stretch (Default) */
+  /* align-items: stretch; */
+
+  /* 5.2 */
+  /* Flex Start */
+  /* align-items: flex-start; */
+
+  /* 5.3 */
+  /* Flex End */
+  /* align-items: flex-end; */
+
+  /* 5.4 */
+  /* Center */
+  /* align-items: center; */
+
+  /* 5.5 */
+  /* Baseline */
+  /* align-items: baseline; */
+
+  /*-*-*-*-*-*-*-*-*-*-----(6)ALIGN CONTENT-----*-*-*-*-*-*-*-*-*-*/
+
+  /* 6.1 */
+  /* Stretch (Default) */
+  /* align-content: stretch; */
+
+  /* 6.2 */
+  /* Flex Start */
+  /* align-content: flex-start; */
+
+  /* 6.3 */
+  /* Flex End */
+  /* align-content: flex-end; */
+
+  /* 6.4 */
+  /* Space Between */
+  /* align-content: space-between; */
+
+  /* 6.5 */
+  /* Space Around */
+  /* align-content: space-around; */
+
+  /* 6.6 */
+  /* Space Evenly */
+  /* align-content: space-evenly; */
+
+  /* 6.7 */
+  /* Center */
+  /* align-content: center; */
+}
+
+/* Flex Items => Children */
+li {
+  /* display: inline-block; */
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  /* height: 100px; */ /* Comment out for (align-items: stretch;) to be visualized */
+  /* padding-top: 20px; */ /* Comment in for (align-items: baseline;) to be visualized */
+  /* padding-bottom: 20px; */ /* Comment in for (align-items: baseline;) to be visualized */
+}
+
+/* Comment in for (align-items: baseline;) to be visualized */
+/* li:first-child {
+  padding: 5px;
+} */
