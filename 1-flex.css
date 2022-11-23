@@ -1,0 +1,21 @@
+/* Flex Container  */
+ul {
+  background: lightslategrey;
+  padding: 20px;
+
+  /* Flex Container Properties  */
+  display: flex;
+  /* display: inline-flex; */
+  justify-content: center;
+}
+
+/* Flex Items  */
+li {
+  /* display: inline-block; */
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+}
